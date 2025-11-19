@@ -1,0 +1,170 @@
+EJERCICIOS POR TIPO DE DATO — Contexto Empresarial
+1. Ejercicios para el tipo de dato int (entero)
+Empresa: "LogiExpress" — Empresa de envíos nacionales
+Situación:
+ El departamento de operaciones necesita calcular la cantidad total de paquetes procesados en una jornada.
+Ejercicio:
+Pide al usuario ingresar:
+Cantidad de paquetes enviados en la mañana
+
+
+Cantidad de paquetes enviados en la tarde
+
+
+Cantidad de paquetes enviados en la noche
+
+
+Objetivo:
+ Suma los valores y muestra el total de paquetes procesados.
+Ejemplo esperado:
+paquetes_manana = int(input("Paquetes en la mañana: "))
+paquetes_tarde = int(input("Paquetes en la tarde: "))
+paquetes_noche = int(input("Paquetes en la noche: "))
+
+total = paquetes_manana + paquetes_tarde + paquetes_noche
+
+print("Total de paquetes procesados:", total)
+
+2. Ejercicios para el tipo de dato float (decimal)
+Empresa: "AquaPure" — Purificadora de agua
+Situación:
+ El laboratorio debe registrar la cantidad de litros purificados en distintos tanques.
+Ejercicio:
+Pide al usuario:
+Litros purificados en el tanque A
+
+
+Litros purificados en el tanque B
+
+
+Objetivo:
+ Calcular la producción total con decimales.
+Ejemplo esperado:
+tanque_a = float(input("Litros del tanque A: "))
+tanque_b = float(input("Litros del tanque B: "))
+
+total = tanque_a + tanque_b
+
+print("Producción total en litros:", total)
+
+3. Ejercicios para el tipo de dato str (texto)
+Empresa: "CustomerFirst" — Call Center de atención al cliente
+Situación:
+ El supervisor necesita registrar el nombre del agente y el nombre del cliente atendido.
+Ejercicio:
+Pide al usuario:
+Nombre del agente
+
+
+Nombre del cliente
+
+
+Objetivo:
+ Mostrar un mensaje combinando textos.
+Ejemplo esperado:
+agente = input("Nombre del agente: ")
+cliente = input("Nombre del cliente: ")
+
+print("El agente", agente, "ha atendido al cliente", cliente)
+
+4. Ejercicios para el tipo de dato bool (booleano)
+Empresa: "SecurePass" — Soluciones de seguridad digital
+Situación:
+ El sistema debe determinar si un usuario tiene acceso a un módulo restringido.
+Ejercicio:
+Pide al usuario:
+¿Tiene permisos? (escribe True o False)
+
+
+Objetivo:
+ Mostrar un mensaje diferente según el acceso.
+Ejemplo esperado:
+acceso = input("¿Tiene permisos? (True/False): ")
+acceso = acceso == "True"
+
+if acceso:
+    print("Acceso concedido.")
+else:
+    print("Acceso denegado.")
+
+5. Ejercicio para listas (list)
+Empresa: "SuperMarketPlus" — Supermercado en línea
+Situación:
+ El sistema debe guardar una lista de productos seleccionados por el usuario.
+Ejercicio:
+Pide al usuario ingresar 3 productos para un pedido.
+Ejemplo esperado:
+producto1 = input("Producto 1: ")
+producto2 = input("Producto 2: ")
+producto3 = input("Producto 3: ")
+
+carrito = [producto1, producto2, producto3]
+
+print("Carrito de compra:", carrito)
+
+6. Ejercicio para tuplas (tuple)
+Empresa: "GeoMapping" — Servicios de geolocalización
+Situación:
+ El sistema debe almacenar coordenadas que NO pueden cambiar.
+Ejercicio:
+Solicita al usuario:
+Latitud
+
+
+Longitud
+
+
+Objetivo:
+ Crear una tupla con las coordenadas.
+Ejemplo esperado:
+latitud = float(input("Latitud: "))
+longitud = float(input("Longitud: "))
+
+coordenadas = (latitud, longitud)
+
+print("Coordenadas registradas:", coordenadas)
+
+7. Ejercicio para diccionarios (dict)
+Empresa: "HumanSoft" — Gestión de talento humano
+Situación:
+ Recopilar datos básicos de un empleado.
+Ejercicio:
+Pide al usuario:
+Nombre
+
+
+Cargo
+
+
+Salario
+
+
+Guárdalos en un diccionario y muéstralo.
+Ejemplo esperado:
+nombre = input("Nombre del empleado: ")
+cargo = input("Cargo del empleado: ")
+salario = float(input("Salario del empleado: "))
+
+empleado = {
+    "nombre": nombre,
+    "cargo": cargo,
+    "salario": salario
+}
+
+print("Registro del empleado:", empleado)
+
+8. Ejercicio para set (conjunto)
+Empresa: "EduTech" — Plataforma educativa
+Situación:
+ El sistema debe almacenar cursos sin permitir duplicados.
+Ejercicio:
+Pide al usuario ingresar 3 cursos que desea tomar.
+ Guárdalos en un conjunto.
+Ejemplo esperado:
+curso1 = input("Curso 1: ")
+curso2 = input("Curso 2: ")
+curso3 = input("Curso 3: ")
+
+cursos = {curso1, curso2, curso3}
+
+print("Cursos registrados:", cursos)
