@@ -1,8 +1,8 @@
-1. Convertir a Entero (int())
+# 1. Convertir a Entero (int())
 
-Convierte cadenas numéricas y números con decimales a enteros.
+# Convierte cadenas numéricas y números con decimales a enteros.
 
-Ejemplo:
+# Ejemplo:
 
 numero_str = "25"
 numero_int = int(numero_str)   # Resultado: 25
@@ -10,11 +10,11 @@ numero_int = int(numero_str)   # Resultado: 25
 decimal = 9.8
 decimal_a_entero = int(decimal)  # Resultado: 9
 
-2. Convertir a Flotante (float())
+# 2. Convertir a Flotante (float())
 
-Convierte enteros y cadenas numéricas en números decimales.
+# Convierte enteros y cadenas numéricas en números decimales.
 
-Ejemplo:
+# Ejemplo:
 
 numero = 10
 numero_float = float(numero)  # Resultado: 10.0
@@ -22,11 +22,11 @@ numero_float = float(numero)  # Resultado: 10.0
 cadena = "3.14"
 cadena_float = float(cadena)  # Resultado: 3.14
 
-3. Convertir a Cadena (str())
+# 3. Convertir a Cadena (str())
 
-Convierte cualquier valor a texto.
+# Convierte cualquier valor a texto.
 
-Ejemplo:
+# Ejemplo:
 
 edad = 25
 edad_str = str(edad)  # Resultado: "25"
@@ -34,15 +34,15 @@ edad_str = str(edad)  # Resultado: "25"
 valor = True
 valor_str = str(valor)  # Resultado: "True"
 
-4. Convertir a Booleano (bool())
+# 4. Convertir a Booleano (bool())
 
-Reglas:
+# Reglas:
 
-0, 0.0, "", None, listas vacías [], tuplas vacías (), diccionarios vacíos {} → False
+# 0, 0.0, "", None, listas vacías [], tuplas vacías (), diccionarios vacíos {} → False
 
-Todo lo demás → True
+# Todo lo demás → True
 
-Ejemplo:
+# Ejemplo:
 
 numero = 1
 numero_bool = bool(numero)  # True
@@ -50,11 +50,11 @@ numero_bool = bool(numero)  # True
 texto_vacio = ""
 texto_bool = bool(texto_vacio)  # False
 
-5. Convertir a Lista (list())
+# 5. Convertir a Lista (list())
 
-Convierte cadenas, tuplas, conjuntos o diccionarios a lista.
+# Convierte cadenas, tuplas, conjuntos o diccionarios a lista.
 
-Ejemplo:
+# Ejemplo:
 
 texto = "hola"
 lista_caracteres = list(texto)  # ['h', 'o', 'l', 'a']
@@ -62,34 +62,34 @@ lista_caracteres = list(texto)  # ['h', 'o', 'l', 'a']
 tupla = (1, 2, 3)
 lista_desde_tupla = list(tupla)  # [1, 2, 3]
 
-6. Convertir a Tupla (tuple())
+# 6. Convertir a Tupla (tuple())
 
-Convierte listas, cadenas y conjuntos a tupla.
+# Convierte listas, cadenas y conjuntos a tupla.
 
-Ejemplo:
+# Ejemplo:
 
 lista = [1, 2, 3]
 tupla_convertida = tuple(lista)  # (1, 2, 3)
 
-7. Convertir a Conjunto (set())
+# 7. Convertir a Conjunto (set())
 
-Elimina duplicados automáticamente.
+# Elimina duplicados automáticamente.
 
-Ejemplo:
+# Ejemplo:
 
 lista = [1, 2, 2, 3, 3]
 conjunto = set(lista)  # {1, 2, 3}
 
-8. Convertir a Diccionario (dict())
+# 8. Convertir a Diccionario (dict())
 
-Solo se puede convertir si el contenido tiene formato válido (pares clave-valor).
+# Solo se puede convertir si el contenido tiene formato válido (pares clave-valor).
 
-Ejemplo:
+# Ejemplo:
 
 lista = [("nombre", "Carlos"), ("edad", 25)]
 diccionario = dict(lista)  # {"nombre": "Carlos", "edad": 25}
 
-Ejemplo general de casting
+# Ejemplo general de casting
 numero = "45"
 numero = int(numero)        # 45
 numero = float(numero)      # 45.0
